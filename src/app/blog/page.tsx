@@ -13,31 +13,31 @@ export default async function BlogPage() {
     <main className="animate-fade-in-up relative">
       <h1 className="text-4xl font-bold mb-8 text-white">
         <span className="text-accent mr-2">*</span>
-        <ScrambleText text="blog" />
+        <ScrambleText text="Blog" />
       </h1>
 
       <p className="hidden sm:block text-sm text-gray-400 mb-8">
-        press{" "}
+        Press{" "}
         <kbd className="px-1 py-0.5 text-xs border border-gray-700 rounded">
           /
         </kbd>{" "}
-        to search • use{" "}
+        To Search • Use{" "}
         <kbd className="px-1 py-0.5 text-xs border border-gray-700 rounded">
           ctrl / ⌘ j
         </kbd>{" "}
-        and{" "}
+        And{" "}
         <kbd className="px-1 py-0.5 text-xs border border-gray-700 rounded">
           ctrl / ⌘ k
         </kbd>{" "}
-        or{" "}
+        Or{" "}
         <kbd className="px-1 py-0.5 text-xs border border-gray-700 rounded">
           ↑
         </kbd>{" "}
-        and{" "}
+        And{" "}
         <kbd className="px-1 py-0.5 text-xs border border-gray-700 rounded">
           ↓
         </kbd>{" "}
-        to navigate
+        To Navigate
       </p>
 
       <PostsList posts={posts} />

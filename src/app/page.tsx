@@ -8,28 +8,28 @@ import { AchievementsSection } from "@/components/achievements-section"
 
 const workItems: Item[] = [
   {
-    title: "edunet foundation",
-    role: "intern",
-    period: "feb 2025 - march 2025",
-    description: "aicte internship on ai: transformative learning with techsaksham - a joint csr initiative of microsoft & sap (phase 3)",
+    title: "Edunet Foundation",
+    role: "Intern",
+    period: "Feb 2025 - March 2025",
+    description: "AICTE Internship On AI: Transformative Learning With TechSaksham - A Joint CSR Initiative Of Microsoft & SAP (Phase 3)",
     href: "https://edunetfoundation.org",
   },
 ]
 
 const projectItems = [
   {
-    title: "healthcare ai chatbot",
-    role: "creator",
+    title: "Healthcare AI Chatbot",
+    role: "Creator",
     description:
-      "ai-powered chatbot providing real-time healthcare responses using roberta and nltk. built with python, streamlit, and hugging face transformers",
-    href: "https://github.com/riturajsingh/healthcare-chatbot",
+      "AI-Powered Chatbot Providing Real-Time Healthcare Responses Using RoBERTa And NLTK. Built With Python, Streamlit, And Hugging Face Transformers",
+    href: "https://github.com/23bey10050/healtcareAI",
   },
   {
-    title: "e-commerce platform with ai price negotiation",
-    role: "creator",
+    title: "E-Commerce Platform With AI Price Negotiation",
+    role: "Creator",
     description:
-      "full-stack mern platform with ai-driven chatbot for real-time price negotiation. features rental furniture and renewed electronics sections",
-    href: "https://github.com/riturajsingh/ecommerce-ai",
+      "Full-Stack MERN Platform With AI-Driven Chatbot For Real-Time Price Negotiation. Features Rental Furniture And Renewed Electronics Sections",
+    href: "https://github.com/23bey10050/ecommerce-ai",
   },
 ]
 
@@ -38,12 +38,12 @@ export default function HomePage() {
     <>
       <Header />
       <EducationSection />
-      <SectionList title="work" items={workItems} />
+      <SectionList title="Work" items={workItems} />
       <SectionList
-        title="projects"
+        title="Projects"
         items={projectItems}
         viewAllHref="/projects"
-        viewAllText="all projects"
+        viewAllText="All Projects"
       />
       <SkillsSection />
       <AchievementsSection />

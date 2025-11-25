@@ -3,28 +3,28 @@ import Link from "next/link"
 const achievements = [
   {
     title: "ArthNeeti 4.0",
-    description: "finalist in national competition",
+    description: "Finalist In National Competition",
     href: "#",
   },
   {
     title: "Tata Group's Data Visualisation",
-    description: "empowering business with effective insights simulation",
+    description: "Empowering Business With Effective Insights Simulation",
     href: "#",
   },
   {
     title: "Accenture UK Developer Simulation",
-    description: "completed developer and technology job simulation",
+    description: "Completed Developer And Technology Job Simulation",
     href: "#",
   },
   {
     title: "Google Digital Marketing Certificate",
     description:
-      "fundamentals of digital marketing and e-commerce certification",
+      "Fundamentals Of Digital Marketing And E-Commerce Certification",
     href: "#",
   },
   {
     title: "ISRO Deep Learning Course",
-    description: "deep learning in ecological studies - indian space research organization",
+    description: "Deep Learning In Ecological Studies - Indian Space Research Organization",
     href: "#",
   },
 ]
@@ -33,7 +33,7 @@ export function AchievementsSection() {
   return (
     <section className="mb-16 animate-fade-in-up">
       <h2 className="text-2xl font-bold mb-6 flex items-center text-white">
-        <span className="text-accent mr-2">*</span> achievements
+        <span className="text-accent mr-2">*</span> Achievements
       </h2>
       <div className="space-y-4">
         {achievements.map((achievement, index) => (
