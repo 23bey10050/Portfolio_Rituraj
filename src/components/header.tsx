@@ -27,7 +27,6 @@ export function Header() {
           <Building2 className="w-4 h-4" style={{ color: 'rgb(255, 107, 53)' }} />
           Third-year Student @ VIT Bhopal University
         </div>
-        </div>
       </div>
       <p className="leading-relaxed animate-fade-in-up">
         Third-year CS Undergrad At VIT Bhopal University | Oracle Certified DevOps Professional Engineer. Passionate About Full-Stack Development, AI/ML, Cloud Infrastructure, And Building Innovative Solutions. Core Member Of GSOC Innovators Club (PR And Outreach Team). When I&apos;m Not Coding, I&apos;m Exploring Tech Entrepreneurship, DevOps, And Cloud Technologies.
