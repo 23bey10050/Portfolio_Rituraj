@@ -2,29 +2,28 @@ import Link from "next/link"
 
 const achievements = [
   {
-    title: "ArthNeeti 4.0",
-    description: "Finalist In National Competition",
+    title: "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
+    description: "Oracle Certified DevOps Professional Engineer",
     href: "#",
   },
   {
-    title: "Tata Group's Data Visualisation",
-    description: "Empowering Business With Effective Insights Simulation",
+    title: "Indo-Dutch Cyber Security School",
+    description: "Seventh Edition - Cyber Security Certification",
     href: "#",
   },
   {
-    title: "Accenture UK Developer Simulation",
-    description: "Completed Developer And Technology Job Simulation",
+    title: "Deep Learning In Ecological Studies",
+    description: "ISRO - Indian Space Research Organization",
     href: "#",
   },
   {
-    title: "Google Digital Marketing Certificate",
-    description:
-      "Fundamentals Of Digital Marketing And E-Commerce Certification",
+    title: "Geodata Processing Using Python And Machine Learning",
+    description: "Advanced Data Processing And ML Techniques",
     href: "#",
   },
   {
-    title: "ISRO Deep Learning Course",
-    description: "Deep Learning In Ecological Studies - Indian Space Research Organization",
+    title: "Tata Group - Data Visualisation",
+    description: "Empowering Business With Effective Insights Job Simulation",
     href: "#",
   },
 ]

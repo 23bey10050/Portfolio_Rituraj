@@ -12,12 +12,12 @@ export function EducationSection() {
                 VIT Bhopal University
               </h3>
               <p className="text-gray-400 text-sm">
-                Bachelor Of Technology In Computer Science (E-Commerce Technology)
+                Bachelor Of Technology - BTech, Computer Science And Engineering
               </p>
             </div>
-            <span className="text-gray-400 text-sm">Sehore, Bhopal</span>
+            <span className="text-gray-400 text-sm">August 2023 - May 2027</span>
           </div>
-          <p className="text-accent text-sm">Cumulative GPA: 8.3</p>
+          <p className="text-gray-400 text-sm">Sehore, Bhopal, Madhya Pradesh</p>
           <div className="mt-2 text-sm text-gray-400">
             <p>• Core Member - GSOC Innovators Club (PR And Outreach Team)</p>
             <p>• Core Member - Ecommerce Club (Creative / Design Team)</p>

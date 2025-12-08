@@ -3,6 +3,8 @@ export function SkillsSection() {
     frontend: ["React.js", "Tailwind CSS", "Redux"],
     backend: ["Node.js", "Express.js", "MongoDB"],
     aiml: ["Chatbot Development", "NLP", "TensorFlow"],
+    cloud: ["Oracle Cloud Infrastructure", "Container Instances", "OCI Registry (OCIR)", "Kubernetes"],
+    devops: ["Kubernetes", "Docker", "CI/CD", "DevOps"],
     other: ["REST APIs", "Firebase", "Authentication", "Payment Integration"],
     languages: ["Python", "C++", "Java", "JavaScript"],
   }
@@ -45,6 +47,32 @@ export function SkillsSection() {
           <h3 className="text-sm font-semibold text-gray-300 mb-3">AI/ML</h3>
           <div className="flex flex-wrap gap-2">
             {skills.aiml.map((skill, index) => (
+              <span
+                key={index}
+                className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h3 className="text-sm font-semibold text-gray-300 mb-3">Cloud & Infrastructure</h3>
+          <div className="flex flex-wrap gap-2">
+            {skills.cloud.map((skill, index) => (
+              <span
+                key={index}
+                className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h3 className="text-sm font-semibold text-gray-300 mb-3">DevOps</h3>
+          <div className="flex flex-wrap gap-2">
+            {skills.devops.map((skill, index) => (
               <span
                 key={index}
                 className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded"

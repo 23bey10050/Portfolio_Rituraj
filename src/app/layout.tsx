@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     default: "RITU RAJ SINGH",
     template: "%s | RITU RAJ SINGH",
   },
-  description: "CS Student, Full-Stack Developer, and AI Enthusiast.",
+  description: "Third-year CS Student at VIT Bhopal University | Oracle Certified DevOps Professional | Full-Stack Developer & AI Enthusiast.",
   openGraph: {
     title: "RITU RAJ SINGH",
-    description: "CS Student, Full-Stack Developer, and AI Enthusiast.",
+    description: "Third-year CS Student at VIT Bhopal University | Oracle Certified DevOps Professional | Full-Stack Developer & AI Enthusiast.",
     url: "https://www.riturajsingh.me",
     siteName: "RITU RAJ SINGH",
     locale: "en_US",

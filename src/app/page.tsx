@@ -8,9 +8,16 @@ import { AchievementsSection } from "@/components/achievements-section"
 
 const workItems: Item[] = [
   {
+    title: "GSOC Innovators",
+    role: "Core Member (PR and Outreach Team)",
+    period: "February 2025 - September 2025",
+    description: "Core Member Of The PR And Outreach Team For The GSOC Innovators Club For The 25-26 Tenure At VIT Bhopal University",
+    href: "#",
+  },
+  {
     title: "Edunet Foundation",
     role: "Intern",
-    period: "Feb 2025 - March 2025",
+    period: "January 2025 - February 2025",
     description: "AICTE Internship On AI: Transformative Learning With TechSaksham - A Joint CSR Initiative Of Microsoft & SAP (Phase 3)",
     href: "https://edunetfoundation.org",
   },
