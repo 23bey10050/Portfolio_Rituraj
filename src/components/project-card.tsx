@@ -21,21 +21,21 @@ export function ProjectCard({
   href,
 }: ProjectCardProps) {
   return (
-    <div className="group border border-gray-800 p-6 transition-colors hover:border-accent/50">
+    <div className="group border border-gray-800 p-4 sm:p-6 transition-colors hover:border-accent/50">
       <Link href={href} target="_blank">
         <div className="flex justify-between items-start mb-4">
-          <h2 className="text-2xl font-bold text-white group-hover:text-accent transition-colors">
+          <h2 className="text-xl sm:text-2xl font-bold text-white group-hover:text-accent transition-colors pr-2">
             {title}
           </h2>
-          <ArrowUpRight className="w-5 h-5 text-gray-400 group-hover:text-accent transition-colors" />
+          <ArrowUpRight className="w-5 h-5 flex-shrink-0 text-gray-400 group-hover:text-accent transition-colors" />
         </div>
       </Link>
 
-      <p className="text-sm text-gray-400 mb-4">
+      <p className="text-xs sm:text-sm text-gray-400 mb-4">
         {role} {period && `(${period})`}
       </p>
 
-      <p className="text-gray-300 mb-6">{description}</p>
+      <p className="text-sm sm:text-base text-gray-300 mb-6">{description}</p>
 
       <div className="space-y-6">
         <div>

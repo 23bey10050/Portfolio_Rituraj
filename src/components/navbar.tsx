@@ -35,26 +35,26 @@ export function Navbar() {
   }, [router])
 
   return (
-    <nav className="flex items-center justify-between mb-12 text-sm">
-      <div className="flex space-x-4">
+    <nav className="flex items-center justify-between mb-6 md:mb-12 text-xs sm:text-sm">
+      <div className="flex space-x-3 sm:space-x-4">
         <Link
           href="/"
           className="hover:text-accent transition-colors duration-200"
         >
-          [h] Home
+          <span className="hidden sm:inline">[h] </span>Home
         </Link>
         <Link
           href="/blog"
           prefetch={true}
           className="hover:text-accent transition-colors duration-200"
         >
-          [b] Blog
+          <span className="hidden sm:inline">[b] </span>Blog
         </Link>
         <Link
           href="/projects"
           className="hover:text-accent transition-colors duration-200"
         >
-          [p] Projects
+          <span className="hidden sm:inline">[p] </span>Projects
         </Link>
       </div>
     </nav>

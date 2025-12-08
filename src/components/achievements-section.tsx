@@ -30,15 +30,15 @@ const achievements = [
 
 export function AchievementsSection() {
   return (
-    <section className="mb-16 animate-fade-in-up">
-      <h2 className="text-2xl font-bold mb-6 flex items-center text-white">
+    <section className="mb-8 md:mb-16 animate-fade-in-up">
+      <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 flex items-center text-white">
         <span className="text-accent mr-2">*</span> Achievements
       </h2>
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         {achievements.map((achievement, index) => (
-          <div key={index} className="border-l-2 border-accent pl-4">
-            <h3 className="font-semibold text-white">{achievement.title}</h3>
-            <p className="text-sm text-gray-400">{achievement.description}</p>
+          <div key={index} className="border-l-2 border-accent pl-3 sm:pl-4">
+            <h3 className="font-semibold text-white text-sm sm:text-base">{achievement.title}</h3>
+            <p className="text-xs sm:text-sm text-gray-400">{achievement.description}</p>
           </div>
         ))}
       </div>

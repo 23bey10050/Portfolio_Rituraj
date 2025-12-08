@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     template: "%s | RITU RAJ SINGH",
   },
   description: "Third-year CS Student at VIT Bhopal University | Oracle Certified DevOps Professional | Full-Stack Developer & AI Enthusiast.",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   openGraph: {
     title: "RITU RAJ SINGH",
     description: "Third-year CS Student at VIT Bhopal University | Oracle Certified DevOps Professional | Full-Stack Developer & AI Enthusiast.",
@@ -50,7 +51,7 @@ export default function RootLayout({
         className={`${geistMono.variable} antialiased min-h-screen font-mono`}
         suppressHydrationWarning
       >
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-6 md:py-8">
           <Navbar />
           {children}
         </div>

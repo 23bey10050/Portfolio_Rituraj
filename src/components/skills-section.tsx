@@ -10,20 +10,20 @@ export function SkillsSection() {
   }
 
   return (
-    <section className="mb-16 animate-fade-in-up">
-      <h2 className="text-2xl font-bold mb-6 flex items-center text-white">
+    <section className="mb-8 md:mb-16 animate-fade-in-up">
+      <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 flex items-center text-white">
         <span className="text-accent mr-2">*</span> Skills
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
         <div>
-          <h3 className="text-sm font-semibold text-gray-300 mb-3">
+          <h3 className="text-xs sm:text-sm font-semibold text-gray-300 mb-2 sm:mb-3">
             Frontend
           </h3>
           <div className="flex flex-wrap gap-2">
             {skills.frontend.map((skill, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded"
+                className="px-2 sm:px-3 py-1 bg-gray-800 text-gray-300 text-xs sm:text-sm rounded"
               >
                 {skill}
               </span>
