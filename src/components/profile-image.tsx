@@ -11,7 +11,7 @@ export function ProfileImage() {
       <img
         src="/rituraj.png"
         alt="Ritu Raj Singh"
-        className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-2 border-accent object-cover flex-shrink-0 cursor-pointer hover:opacity-90 transition-opacity"
+        className="w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full border-2 border-accent object-cover flex-shrink-0 cursor-pointer hover:opacity-90 hover:scale-105 transition-all duration-300"
         onClick={() => setIsOpen(true)}
         role="button"
         tabIndex={0}
