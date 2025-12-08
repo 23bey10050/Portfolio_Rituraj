@@ -38,7 +38,7 @@ export async function GET(request: Request) {
         }}
       >
         <img
-          src="https://www.nexxel.dev/nexxel.jpg"
+          src="https://www.riturajsingh.me/rituraj.png"
           style={{
             position: "absolute",
             bottom: "40px",
