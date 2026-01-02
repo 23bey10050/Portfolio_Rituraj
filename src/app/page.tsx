@@ -1,6 +1,6 @@
 import { Header } from "@/components/header"
 import { Item, SectionList } from "@/components/section-list"
-import { BlogSection } from "@/components/blog-section"
+import { ResumeSection } from "@/components/resume-section"
 import { LinksSection } from "@/components/links-section"
 import { EducationSection } from "@/components/education-section"
 import { SkillsSection } from "@/components/skills-section"
@@ -8,35 +8,28 @@ import { AchievementsSection } from "@/components/achievements-section"
 
 const workItems: Item[] = [
   {
-    title: "GSOC Innovators",
-    role: "Core Member (PR and Outreach Team)",
-    period: "February 2025 - September 2025",
-    description: "Core Member Of The PR And Outreach Team For The GSOC Innovators Club For The 25-26 Tenure At VIT Bhopal University",
-    href: "#",
-  },
-  {
     title: "Edunet Foundation",
     role: "Intern",
     period: "January 2025 - February 2025",
-    description: "AICTE Internship On AI: Transformative Learning With TechSaksham - A Joint CSR Initiative Of Microsoft & SAP (Phase 3)",
+    description: "AICTE Internship on AI: Transformative Learning with TechSaksham - Microsoft & SAP CSR Initiative. Developed an AI-powered health chatbot using Python and Streamlit with real-time user interaction. Worked on chatbot logic, UI integration, and basic deployment workflows.",
     href: "https://edunetfoundation.org",
   },
 ]
 
 const projectItems = [
   {
-    title: "Healthcare AI Chatbot",
+    title: "Tax Quantum — Automated GST GSTR-1 Filing & Sales Analytics Platform",
     role: "Creator",
     description:
-      "AI-Powered Chatbot Providing Real-Time Healthcare Responses Using RoBERTa And NLTK. Built With Python, Streamlit, And Hugging Face Transformers",
-    href: "https://github.com/23bey10050/healtcareAI",
+      "Full-stack GST automation platform for Indian e-commerce sellers. Built with Next.js, React, TypeScript, Node.js. Reduces GSTR-1 filing time from hours to under 2 minutes with multi-marketplace data processing.",
+    href: "#",
   },
   {
-    title: "E-Commerce Platform With AI Price Negotiation",
+    title: "Hostel Management System",
     role: "Creator",
     description:
-      "Full-Stack MERN Platform With AI-Driven Chatbot For Real-Time Price Negotiation. Features Rental Furniture And Renewed Electronics Sections",
-    href: "https://github.com/23bey10050/ecommerce-ai",
+      "Web-based role management platform with visual room allocation, separate dashboards for students, wardens, and staff. Features night canteen ordering system with online payment and real-time complaint tracking.",
+    href: "#",
   },
 ]
 
@@ -54,7 +47,7 @@ export default function HomePage() {
       />
       <SkillsSection />
       <AchievementsSection />
-      <BlogSection />
+      <ResumeSection />
       <LinksSection />
     </>
   )

@@ -18,15 +18,15 @@ export function Header() {
       <div className="flex flex-col gap-2 text-sm sm:text-base text-gray-400">
         <div className="flex items-start sm:items-center gap-2">
           <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5 sm:mt-0" style={{ color: 'rgb(255, 107, 53)' }} />
-          <span className="break-words">Ram Krishna Nagar, Dibiyapur, Auraiya, Uttar Pradesh, India - 206244</span>
+          <span className="break-words">Auraiya, Uttar Pradesh, India</span>
         </div>
         <div className="flex items-center gap-2">
           <Building2 className="w-4 h-4 flex-shrink-0" style={{ color: 'rgb(255, 107, 53)' }} />
-          <span>Third-year Student @ VIT Bhopal University</span>
+          <span>B.Tech CSE (E-commerce Technology) @ VIT Bhopal University</span>
         </div>
       </div>
       <p className="leading-relaxed text-sm sm:text-base animate-fade-in-up">
-        Third-year CS Undergrad At VIT Bhopal University | Oracle Certified DevOps Professional Engineer. Passionate About Full-Stack Development, AI/ML, Cloud Infrastructure, And Building Innovative Solutions. Core Member Of GSOC Innovators Club (PR And Outreach Team). When I&apos;m Not Coding, I&apos;m Exploring Tech Entrepreneurship, DevOps, And Cloud Technologies.
+        Third-year CS Undergrad At VIT Bhopal University | Oracle Certified DevOps Professional. Passionate About Building Full-Stack Applications, GST Automation Solutions, And Web-Based Management Systems. Experienced In Java, Python, Web Technologies, And Cloud Platforms.
       </p>
     </header>
   )

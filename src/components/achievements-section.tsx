@@ -2,29 +2,24 @@ import Link from "next/link"
 
 const achievements = [
   {
+    title: "Google IT Support Professional Certificate",
+    description: "Google",
+    href: "https://www.credly.com/badges/764a7d3d-807e-4b0b-8750-efbb2968ecee/linked_in_profile",
+  },
+  {
     title: "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
-    description: "Oracle Certified DevOps Professional Engineer",
-    href: "#",
+    description: "Oracle",
+    href: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=01568A9DFA7F8236DD52404C920887B006B55F3710ECACA5A0B81311BDB77E2E",
   },
   {
-    title: "Indo-Dutch Cyber Security School",
-    description: "Seventh Edition - Cyber Security Certification",
-    href: "#",
+    title: "Foundations of Digital Marketing & E-commerce",
+    description: "Google",
+    href: "https://www.coursera.org/account/accomplishments/verify/ZFOF9F5FA40M",
   },
   {
-    title: "Deep Learning In Ecological Studies",
-    description: "ISRO - Indian Space Research Organization",
-    href: "#",
-  },
-  {
-    title: "Geodata Processing Using Python And Machine Learning",
-    description: "Advanced Data Processing And ML Techniques",
-    href: "#",
-  },
-  {
-    title: "Tata Group - Data Visualisation",
-    description: "Empowering Business With Effective Insights Job Simulation",
-    href: "#",
+    title: "Indo-Dutch Cyber Security School (7th Edition)",
+    description: "Cyber Security Certification",
+    href: "https://epathra.com/verify-direct-doc/MjA3L0lONTEwMDEwMDM3OQ==",
   },
 ]
 
