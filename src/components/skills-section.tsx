@@ -1,9 +1,9 @@
 export function SkillsSection() {
   const skills = {
-    languages: ["Java", "Python", "C++ (Basic)"],
-    webTech: ["HTML", "CSS"],
-    databases: ["MySQL", "MongoDB"],
-    tools: ["Git", "GitHub", "Docker", "AWS", "Streamlit", "n8n (Workflow Automation)"],
+    languages: ["Java", "Python", "JavaScript", "TypeScript", "C++ (Basic)", "SQL"],
+    webTech: ["React", "Next.js", "HTML", "CSS", "Tailwind CSS", "Node.js", "REST APIs", "Microservices"],
+    databases: ["MySQL", "MongoDB", "Supabase"],
+    tools: ["AWS (S3)", "OCI", "Docker", "Git", "GitHub", "Vercel", "CI/CD", "Streamlit", "LangChain", "Excel/CSV Processing", "Helium 10", "Jungle Scout", "Postman", "Microsoft Excel"],
   }
 
   return (

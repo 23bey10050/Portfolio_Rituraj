@@ -26,7 +26,7 @@ export function Header() {
         </div>
       </div>
       <p className="leading-relaxed text-sm sm:text-base animate-fade-in-up">
-        Third-year CS Undergrad At VIT Bhopal University | Oracle Certified DevOps Professional. Passionate About Building Full-Stack Applications, GST Automation Solutions, And Web-Based Management Systems. Experienced In Java, Python, Web Technologies, And Cloud Platforms.
+        Fourth-year CS Undergrad at VIT Bhopal University | Oracle Certified DevOps Professional. Passionate about building full-stack applications, GST automation solutions, and web-based management systems. Experienced in Java, Python, React, Next.js, and Cloud Platforms.
       </p>
     </header>
   )

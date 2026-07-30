@@ -1,8 +1,8 @@
 import Link from "next/link"
 
 const links = [
-  { title: "Phone", href: "tel:+917417515811" },
-  { title: "Email", href: "mailto:ritu.23bey10050@vitbhopal.ac.in" },
+  { title: "Phone", href: "tel:+917417545811" },
+  { title: "Email", href: "mailto:ritu.23bey10050@gmail.com" },
   { title: "GitHub", href: "https://github.com/23bey10050" },
   { title: "LinkedIn", href: "https://www.linkedin.com/in/rituraj2027" },
 ]
